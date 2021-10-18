@@ -1,3 +1,11 @@
+/**
+ * @author Brittney Desroches, 100649514
+ * Assignment 1 for Distributed Systems
+ *
+ * This program is a number-system converter, specifically for binary and decimal 
+ * This is the server side of this application
+ */
+
 import java.io.*;
 import java.net.*;
 import java.text.DecimalFormat;
