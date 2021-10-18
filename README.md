@@ -14,6 +14,7 @@ How to use the program:
   - Currently, the only options for currentType and newType are binary or decimal.
 
   - To disconnect from the server, enter the command 'exit' 
+ 
 
 Description:
 
