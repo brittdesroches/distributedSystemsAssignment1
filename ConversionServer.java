@@ -54,13 +54,13 @@ class Conversion extends Thread{
 	public Conversion (){}
 
 	//main constructor
-    public Conversion (Socket clientSocket){
-       //set up the Socket instance and the input/output methods
-        try{
+	public Conversion (Socket clientSocket){
+		//set up the Socket instance and the input/output methods
+           	try{
 			client = clientSocket;
-            InputStream in = client.getInputStream();
+            		InputStream in = client.getInputStream();
 			reader = new BufferedReader(new InputStreamReader(in));
-            OutputStream out = client.getOutputStream();
+           		 OutputStream out = client.getOutputStream();
 			writer = new PrintWriter(out, true);
         }catch(Exception e){
 			System.out.println("Setup failed, exception: " + e.getMessage());
