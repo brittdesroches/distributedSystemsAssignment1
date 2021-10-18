@@ -1,7 +1,7 @@
 # distributedSystemsAssignment1
-How to use the program:
+**How to use the program:**
 
-   **STARTING IN THE DIRECTORY THAT HOLDS THESE FILES**
+  - Navigate the the directory these files are found in
 
   - Start server with "java ConversionServer 3500"
     (3500 is an example port number)
